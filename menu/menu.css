@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Victor+Mono&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/3952050/pexels-photo-3952050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    display: inline-block;
+    min-height: 100%;
+    padding: 0 2rem;
+    background-color: #ffffffaa;
+}
+
+h1,
+h2 {
+    font-family: 'Oooh Baby', cursive;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+ul {
+    margin-top: 0;
+    line-height: 2;
+    padding-left: 0;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.fa-book-open {
+    color: darkblue;
+}
+
+.fa-bread-slice {
+    color: sienna;
+}
+
+.fa-utensils {
+    color: red;
+}
+
+.fa-ice-cream {
+    color: coral;
+}
