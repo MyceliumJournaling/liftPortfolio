@@ -4,40 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coco Tas</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Coco Tas | To do list </title>
+    <link rel="stylesheet" href="todo.css">
 </head>
 
 <body>
-    <nav>
-        <a href="https://codepen.io/MyceliumJournaling" target="_blank">My CodePen</a>
-    </nav>
-    <h1>Hi, I'm Coco</h1>
-    <p>I'm currently living in a narrowboat called Acorn on the London canals.</p>
-    <h2>Technologies I work with</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <h2>Projects from introductory course</h2>
-    <ul>
-        <li><a href="gallery/" target="_blank"> Image gallery</li>
-        <li><a href="google/" target="_blank"> Google homepage clone</li>
-        <li><a href="menu/" target="_blank"> Restaurant menu</li>
-        <li><a href="calculator/" target="_blank"> Calculator</li>
-        <li><a href="wisdom/" target="_blank">Wisdom for the day</a></li>
-        <li><a href="crochet/" target="_blank">Crochet patterns</a></li>
-        <li><a href="weather/" target="_blank">Weather</a></li>
-        <li><a href="todo/" target="_blank">To do list</a></li>
-    </ul>
-    <h2>You can add your email here to be added to my mailing list</h2>
-    <form id="contactForm">
-        <input type="email" id="emailInput" placeholder="Your email" aria-label="Your email" required>
-        <button type="submit">Submit</button>
-        <p id="thankyouMessage" class="message">Thank you! I'll be in touch.</p>
-    </form>
-    <script src="main.js"></script>
+    <main>
+        <h1>To Do List</h1>
+        <p>What's on your mind?</p>
+        <form id="taskForm">
+            <label for="taskInput">
+                <p class="lead">What do you have to do?</p>
+            </label>
+            <input type="text" id="textInput" placeholder="Enter a task"></input>
+        </form>
+        <ul class="tasks" id="taskList"></ul>
+    </main>
+    <script src="todo.js"></script>
 </body>
 
 </html>
